@@ -1,4 +1,4 @@
-FROM 174713339744.dkr.ecr.cn-north-1.amazonaws.com.cn/ecs-cicd-jenkins:latest
+FROM picoded/ubuntu-base
 
 # Install dependencies
 RUN apt-get update -y
